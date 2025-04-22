@@ -1,0 +1,57 @@
+body {
+    background-color: #F6F8D5;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  /* Sidebar Styling */
+  .sidebar {
+    background-color: #4F959D;
+    height: 100vh;
+  }
+  
+  /* Header Styling */
+  .header {
+    background-color: #205781;
+  }
+  
+  .header-title {
+    font-family: 'Fraunces', serif;
+    font-size: 2.5rem;
+  }
+  
+  /* Task Columns */
+  .task-column {
+    background-color: #98D2C0;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .task-column:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+  }
+  
+  .column-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.8rem;
+  }
+  
+  .list-group-item {
+    background-color: #F6F8D5;
+    border: none;
+    color: #205781;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Icon Buttons inside task */
+  .task-buttons i {
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    color: #205781;
+  }
+  
+  .task-buttons i:hover {
+    color: #ffffff;
+  }
+  

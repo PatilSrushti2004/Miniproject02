@@ -1,0 +1,68 @@
+/* Color Variables */
+:root {
+  --primary-color: #205781;
+  --secondary-color: #4F959D;
+  --accent-color: #98D2C0;
+  --background-color: #F6F8D5;
+}
+
+/* Body Style */
+body {
+  background-color: var(--background-color);
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Login Box Style */
+.login-box {
+  background-color: #fff;
+  max-width: 400px;
+}
+
+/* Login Title */
+.login-title {
+  font-family: 'Fraunces', serif;
+  font-size: 3rem;
+  color: var(--primary-color);
+}
+
+/* Welcome Text */
+.welcome-text {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.1rem;
+  color: var(--secondary-color);
+}
+
+/* Input Fields */
+.login-input {
+  padding: 12px 20px;
+  border: 2px solid var(--primary-color);
+  border-radius: 30px;
+  font-size: 1rem;
+  transition: 0.3s;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Hover and Focus Effect on Inputs */
+.login-input:hover, .login-input:focus {
+  border-color: var(--secondary-color);
+  box-shadow: 0 0 8px rgba(32, 87, 129, 0.2);
+  outline: none;
+}
+
+/* Login Button */
+.login-btn {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 12px;
+  border-radius: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.1rem;
+  transition: 0.3s;
+}
+
+/* Hover Effect on Button */
+.login-btn:hover {
+  background-color: var(--secondary-color);
+  color: #fff;
+  box-shadow: 0 8px 16px rgba(32, 87, 129, 0.2);
+}

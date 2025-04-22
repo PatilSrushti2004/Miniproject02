@@ -1,0 +1,23 @@
+body {
+    background-color: #F6F8D5;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .profile-window {
+    background-color: #98D2C0;
+    border: 3px solid #4F959D;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .profile-title {
+    font-family: 'Fraunces', serif;
+    color: #205781;
+  }
+  
+  .user-info p {
+    font-size: 1.1rem;
+    margin: 1rem 0;
+    color: #205781;
+  }
+  

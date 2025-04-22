@@ -1,0 +1,50 @@
+/* Fonts */
+body {
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  /* Header Style */
+  .dashboard-header {
+    background-color: #205781;
+    padding: 1rem;
+  }
+  
+  .dashboard-title {
+    font-family: 'Fraunces', serif;
+    color: #fff;
+    font-size: 2rem;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 220px;
+    background-color: #F6F8D5;
+    min-height: 100vh;
+  }
+  
+  /* Sidebar Buttons */
+  .sidebar-btn {
+    background: none;
+    border: none;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+    padding: 10px 0;
+    color: #205781;
+    transition: 0.3s;
+  }
+  
+  /* Hover Effect */
+  .sidebar-btn:hover {
+    color: #4F959D;
+    background-color: #F0F1C5;
+    border-radius: 5px;
+    padding-left: 10px;
+  }
+  
+  /* Content Area */
+  .content-area {
+    background-color: #fff;
+    min-height: 100vh;
+  }
+  
